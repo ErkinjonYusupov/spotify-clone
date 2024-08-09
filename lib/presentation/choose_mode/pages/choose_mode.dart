@@ -70,7 +70,7 @@ class _ChooseModeState extends State<ChooseMode> {
                 const SizedBox(height: 50),
                 BasicAppButton(
                     onPressed: () {
-                      Navigator.push(
+                      Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
                               builder: (BuildContext context) =>
